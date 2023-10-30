@@ -1,0 +1,96 @@
+﻿header {
+    background-image: url(bee.png);
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height: 200%;
+    text-indent: 4em;
+}
+nav {
+    margin-bottom: 15px;
+}
+nav a {
+    transition: background-color 2s ease-out;
+    transition: color 2s ease-out;
+}
+nav a:hover {
+    background-color: #292d7c;
+    color: #fcf4c9;
+}
+nav a:link{
+    color: #292d7c;
+}
+h1 {
+    margin-bottom: 5px;
+}
+h2 {
+    margin: 5px;
+}
+body {
+    color: #292d7c;
+    background-color: #efda70;
+    min-width: 800px;
+}
+main {
+    min-width: 364px;
+    padding: 0 10px;
+    background-color: #fcf4c9;
+    overflow: hidden;
+}
+footer {
+    font-size: small;
+    font-style: italic;
+    min-width: 364px;
+    padding: 10px;
+    background-color: #fcf4c9;
+    overflow: hidden;
+}
+#aside {
+    float: right;
+    width: 40%;
+    min-width: 364px;
+    margin-left: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #f7f5e8, #6e71ae);
+}
+table {
+    width: 100%;
+    margin: auto;
+    background-color: #ffffcc;
+    padding: 5px;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+thead th {
+    padding: 5px;
+    border-bottom: 2px solid #292d7c;
+}
+tbody td {
+    padding: 5px;
+    border-bottom: 2px dashed #292d7c;
+}
+form {
+    background-color: #fcf4c9;
+    padding: 10px;
+}
+label {
+    float: left;
+    display: block;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 5px;
+    width: 35%;
+}
+input {
+    display: block;
+    width: 50%;
+    padding: 5px 0;
+}
+input[type="submit"] {
+    margin: 10px auto 0;
+    width: 28%;
+}
+textarea {
+    display: block;
+    width: 50%;
+}
